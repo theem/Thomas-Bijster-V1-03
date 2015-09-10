@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+       <link rel="stylesheet" type="text/css" href="CSS/style.css">
         <meta charset="UTF-8">
         <title>Document</title>
     </head>
@@ -13,6 +14,7 @@
     
               <h2>CMD Amsterdam</h2>
               <section>
+               <article id="cmd">
                 <p>De opleiding Communication &amp; Multimedia Design (CMD) Amsterdam leert studenten alles
                    over het ontwerpen van online interactieve media. Dit betekent het begrijpen, bedenken en
                    maken van interactieve media zoals websites, mobiele applicaties en interactieve televisie.
@@ -20,7 +22,8 @@
                    eindgebruiker van een toepassing maar ook in de context van zijn leefomgeving.
                    Studenten doen toegepast onderzoek en leren hun ontwerpen te testen op usability,
                    gebruikersbehoefte en meetbare eindresultaten. Ze leren werken in multidisciplinaire
-                   projectteams aan opdrachten voor echte projectpartners.</p>    
+                   projectteams aan opdrachten voor echte projectpartners.</p> 
+                   
 
                 <p>De <a href="http://www.hva.nl/onderwijs/opleidingen/opleidingen/opleidingen/content/folder/dmci/communication-and-multimedia-design/de-studie/studieprogramma/jaar-1/jaar-1-propedeuse.html">vakken</a>                        gaan over interactie &amp; strategie, -design, -
                    techniek en -cultuur. In de vakken leren studenten te denken en te handelen als een
@@ -31,9 +34,10 @@
                    de interactieve media ontwerper zich begeeft is sterk in ontwikkeling. De opleiding houdt
                    hier met een flexibel curriculum rekening mee en door met (keuze)vakken en projecten in
                    te springen op nieuwe ontwikkelingen.</p>
+                  </article>
     
                 <h2>Ontwerp opleiding voor Interactieve Media</h2>
-        
+                <article id="ontwerp">
                 <p>CMD Amsterdam stelt ontwerpen centraal in de opleiding. Zij wil studenten leren te denken
                    als een ontwerper en opleiden tot interactieve media ontwerpers met een goede
                    aansluiting op de huidige én de toekomstige beroepspraktijk.</p>
@@ -59,9 +63,10 @@
                    studenten, naast een kernprogramma, een set profileringsvakken kiezen. Hiermee kunnen
                    ze zich in meer of mindere mate richten op een van de vijf beroepen waar de opleiding
                    voor opleidt.</p>
+                  </article>
   
                 <h2>Studieprogramma</h2>
-
+                <article id="studie">
                 <p>Het studieprogramma is ingedeeld in drie fasen: propedeusefase, hoofdfase en de
                    afstudeerfase. De propedeusefase is voor alle studenten gelijk - je maakt kennis met het
                    brede vakgebied van interactieve media en je werkt dat jaar al aan 3 echte projecten. Het
@@ -71,6 +76,7 @@
                    toepassing kan bedenken en bouwen voor een groep gebruikers waar je eerst onderzoek
                    naar hebt gedaan. Dit kan uit eigen beweging of bij een bedrijf.</p>
                 <a href="http://www.hva.nl/onderwijs/opleidingen/opleidingen/opleidingen/content/folder/dmci/communication-and-multimedia-design/de-studie/studieprogramma/jaar-1/jaar-1-propedeuse.html">Opbouw studieprogramma</a>
+                  </article>
   
                 <h2>Beroepen</h2>
 
@@ -90,9 +96,9 @@
                         <li><a href="http://www.hva.nl/onderwijs/opleidingen/opleidingen/opleidingen/content/folder/dmci/communication-and-multimedia-design/na-je-studie/beroepsmogelijkheden/beroepsmogelijkheden.html">Projectmanager</a>,</li>
                         <li><a href="http://www.hva.nl/onderwijs/opleidingen/opleidingen/opleidingen/content/folder/dmci/communication-and-multimedia-design/na-je-studie/beroepsmogelijkheden/beroepsmogelijkheden.html">Contentmanager</a></li> 
                         <li><a href="http://www.hva.nl/onderwijs/opleidingen/opleidingen/opleidingen/content/folder/dmci/communication-and-multimedia-design/na-je-studie/beroepsmogelijkheden/beroepsmogelijkheden.html">Interaction Designer</a>.</li></ul>
-                        <p> Variaties hierop zijn natuurlijk mogelijk.</p>
+                        <p> Variaties hierop zijn natuurlijk mogelijk.
 Mocht je als aankomend student meer willen weten of contact op willen nemen met een
-afgestudeerde studenten? Neem <a href="http://www.hva.nl/over-de-hva/contact/contact.html">contact</a> met ons op.
+    afgestudeerde studenten? Neem <a href="http://www.hva.nl/over-de-hva/contact/contact.html">contact</a> met ons op.</p>
    
                 </section>
           </article>   
