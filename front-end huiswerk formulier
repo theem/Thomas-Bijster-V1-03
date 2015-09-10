@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        </head>
+    <body>
+        <article>
+            <h1>Aanmelden</h1>
+          
+            <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!!
+               Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+               lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+            <em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+               Amsterdam.</em>
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+               Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+               Voor vragen of opmerkingen kunt u <a href="http://www.hva.nl/onderwijs/contact">contact</a> met ons op.</p>
+        </article>
+    <form>
+       <fieldset>
+           <legend>Contactgegevens:</legend>        
+              name:<input type="text" name="Naam">
+              Bedrijf:<input type="text" name="Bedrijf">      
+              Adres:<input type="text" name="Adres">      
+              Postcode:<input type="text" name="Postcode">     
+              Plaats:<input type="text" name="Plaats">      
+              Telefoon:<input type="text" name="Telefoon">     
+              Email:<input type="text" name="Email">
+        </fieldset>
+       <fieldset>
+        <legend>Ik wil mijn aanmelden:</legend>
+
+  <input type="radio" name="sex" value="male" checked>Voor een project
+
+  <input type="radio" name="sex" value="female">Als stagebedrijf
+    </fieldset>
+    <fieldset>
+       <fieldset>
+        <legend>Project</legend>
+            <label for="titel"></label>
+            Titel:<input type="text" id="titel">
+            <label for="doelgroep"></label>
+            Doelgroep omschrijving:<input type="text" id="doelgroep">
+            <label for="opdracht"></label>
+            Opdracht omschrijving:<input type="text" id="opdracht">
+            <label for="doelstelling"></label>
+            Doelstelling/intentie van het project:<input type="text" id="doelstelling">
+            <label for="looptijd"></label>
+            Looptijd:<input type="number" name="quantity" min=1 max=3 id="looptijd">
+            <label for="deadline"></label>
+            Deadline:<input type="date" name="deadline" min=2015-09-09 max=2015-10-09 id="deadline">
+        </fieldset>
+        <fieldset>
+        <legend>Geschikt voor:</legend>
+        <input type="radio" name="sexx" value="male" checked>eerstejaars studenten
+        <input type="radio" name="sexx" value="female">tweedejaars studenten
+        <input type="radio" name="sexx" value="female">derdejaars studenten
+        <input type="radio" name="sexx" value="female">vierdejaars studenten
+        </fieldset>
+        <fieldset>
+        <legend>Opmerkingen:</legend>
+    <textarea name="doelgroep" rows="10" cols="20">Ruimte voor overige opmerkingen</textarea>
+    </fieldset>
+        </fieldset>
+    
+    <fieldset>
+       <fieldset>
+        <legend>Stage</legend>
+        <p>geschikt voor:</p>
+        <input type="radio" name="sexx" value="male" checked>tweedejaars studenten
+        <input type="radio" name="sexx" value="female">afstudeer studenten
+        <input type="radio" name="sexx" value="female">onbekend
+        </fieldset>
+        <fieldset>
+            <legend>Omschrijving werkzaamheden</legend>
+            <textarea name="doelgroep" rows="10" cols="20">Beschrijving stagewerkzaamheden</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Beschrijving van stagebedrijf</legend>
+            Bedrijfsnaam:<input type="text" id="bedrijfsnaam">
+            Adres:<input type="text" id="Adres">
+            <label for="Adres"></label>
+            Postcode:<input type="text" id="Postcode">
+            <label for="doelgroep"></label>
+            Plaats:<input type="text" id="Doelgroep">
+            <label for="Sector"></label>
+            Sector:<input type="text" id="Sector">
+            <label for="business"></label>
+            Core business:<input type="text" id="business">
+            <textarea name="doelgroep" rows="10" cols="20">Ruimte voor overige opmerkingen</textarea>
+        </fieldset>
+        <input type="button" value="Verstuur">
+    </fieldset>
+  </form>
+
+   
+    
+</body>
+</html>
