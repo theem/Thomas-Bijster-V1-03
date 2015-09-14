@@ -28,7 +28,7 @@
                  <label for="Adres">
               Adres:<input type="text" name="Adres" id="Adres"></label>
               <label for="Postcode">
-              Postcode:<input type="text" id="Postcode" name="Postcode" placeholder="1234AB" required/></label>
+              Postcode:<input type="text" id="Postcode" name="Postcode" placeholder="1234AB"></label>
               <label for="Plaats">
               Plaats:<input type="text" name="Plaats" id=Plaats></label>
               <label for="Telefoon">
@@ -62,7 +62,7 @@
         <fieldset>
         <legend>Geschikt voor:</legend>
         <label for="eerstejaar">
-        <input type="checkbox" name="sexx" value="eerstejaars" checked id="eerstejaar">eerstejaars studenten</label>
+        <input type="checkbox" name="sexx" value="eerstejaars" id="eerstejaar">eerstejaars studenten</label>
         <label for="tweedejaar">
         <input type="checkbox" name="sexx" value="tweedejaars" id="tweedejaar">tweedejaars studenten</label>
         <label for="derdejaar">
@@ -99,7 +99,7 @@
             Adres:<input type="text" id="Adres2">
             </label>
             <label for="Postcode2">
-            Postcode:<input type="text" id="Postcode2" name="Postcode2" placeholder="1234AB" required/>
+            Postcode:<input type="text" id="Postcode2" name="Postcode2" placeholder="1234AB">
             </label>
             <label for="Plaats2">
             Plaats:<input type="text" id="Plaats2">
