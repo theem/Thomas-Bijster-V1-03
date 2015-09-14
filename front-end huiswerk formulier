@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
     <head>
+       <link rel="stylesheet" type="text/css" href="CSS/style.csss">
         <meta charset="UTF-8">
         <title>Document</title>
         </head>
@@ -19,44 +20,55 @@
         </article>
     <form>
        <fieldset>
-           <legend>Contactgegevens:</legend>        
-              name:<input type="text" name="Naam">
-              Bedrijf:<input type="text" name="Bedrijf">      
-              Adres:<input type="text" name="Adres">      
-              Postcode:<input type="text" name="Postcode">     
-              Plaats:<input type="text" name="Plaats">      
-              Telefoon:<input type="text" name="Telefoon">     
-              Email:<input type="text" name="Email">
+           <legend>Contactgegevens:</legend>
+                 <label for="Naam">        
+              Naam:<input type="text" name="Naam" id="Naam"></label>
+                 <label for="Bedrijf">
+              Bedrijf:<input type="text" name="Bedrijf" id="Bedrijf"></label>
+                 <label for="Adres">
+              Adres:<input type="text" name="Adres" id="Adres"></label>
+              <label for="Postcode">
+              Postcode:<input type="text" id="Postcode" name="Postcode" placeholder="1234AB" required/></label>
+              <label for="Plaats">
+              Plaats:<input type="text" name="Plaats" id=Plaats></label>
+              <label for="Telefoon">
+              Telefoon:<input type="number" name="Telefoon" id="Telefoon"></label>
+              <label for="Email">
+              Email:<input type="email" name="Email" placeholder="naam@domein.nl" id=Email></label>                            
         </fieldset>
        <fieldset>
         <legend>Ik wil mijn aanmelden:</legend>
-
-  <input type="radio" name="sex" value="male" checked>Voor een project
-
-  <input type="radio" name="sex" value="female">Als stagebedrijf
+  <label for="vinkbedrijf">
+  <input type="radio" name="sex" value="male" checked id="vinkbedrijf">Voor een project</label>
+  <label for="vinkstage">
+  <input type="radio" name="sex" value="female" id="vinkstage">Als stagebedrijf</label>
     </fieldset>
     <fieldset>
        <fieldset>
         <legend>Project</legend>
-            <label for="titel"></label>
-            Titel:<input type="text" id="titel">
-            <label for="doelgroep"></label>
-            Doelgroep omschrijving:<input type="text" id="doelgroep">
-            <label for="opdracht"></label>
-            Opdracht omschrijving:<input type="text" id="opdracht">
-            <label for="doelstelling"></label>
-            Doelstelling/intentie van het project:<input type="text" id="doelstelling">
-            <label for="looptijd"></label>
-            Looptijd:<input type="number" name="quantity" min=1 max=3 id="looptijd">
-            <label for="deadline"></label>
-            Deadline:<input type="date" name="deadline" min=2015-09-09 max=2015-10-09 id="deadline">
+            <label for="titel">
+            Titel:<input type="text" id="titel"></label>
+            <label for="doelgroep">
+            Doelgroep omschrijving:<input type="text" id="doelgroep"></label>
+            <label for="opdracht">
+            Opdracht omschrijving:<input type="text" id="opdracht"></label>
+            <label for="doelstelling">
+            Doelstelling/intentie van het project:<input type="text" id="doelstelling"></label>
+            <label for="looptijd">
+            Looptijd:<input type="number" name="quantity" min=1 max=3 id="looptijd"></label>
+            <label for="deadline">
+            Deadline:<input type="date" name="deadline" min=2015-09-09 max=2015-10-09 id="deadline"></label>
         </fieldset>
         <fieldset>
         <legend>Geschikt voor:</legend>
-        <input type="radio" name="sexx" value="male" checked>eerstejaars studenten
-        <input type="radio" name="sexx" value="female">tweedejaars studenten
-        <input type="radio" name="sexx" value="female">derdejaars studenten
-        <input type="radio" name="sexx" value="female">vierdejaars studenten
+        <label for="eerstejaar">
+        <input type="checkbox" name="sexx" value="eerstejaars" checked id="eerstejaar">eerstejaars studenten</label>
+        <label for="tweedejaar">
+        <input type="checkbox" name="sexx" value="tweedejaars" id="tweedejaar">tweedejaars studenten</label>
+        <label for="derdejaar">
+        <input type="checkbox" name="sexx" value="derdejaars" id="derdejaar">derdejaars studenten</label>
+        <label for="vierdejaar">
+        <input type="checkbox" name="sexx" value="vierdejaars" id="vierdejaar">vierdejaars studenten</label>
         </fieldset>
         <fieldset>
         <legend>Opmerkingen:</legend>
@@ -68,9 +80,12 @@
        <fieldset>
         <legend>Stage</legend>
         <p>geschikt voor:</p>
-        <input type="radio" name="sexx" value="male" checked>tweedejaars studenten
-        <input type="radio" name="sexx" value="female">afstudeer studenten
-        <input type="radio" name="sexx" value="female">onbekend
+        <label for="2jaar">
+        <input type="checkbox" name="tweedejaars" value="tweedejaars" id="2jaar">tweedejaars studenten</label>
+        <label for="afstudeer">
+        <input type="checkbox" name="afstudeer" value="afstudeer" id="afstudeer">afstudeer studenten</label>
+        <label for="onbekend">
+        <input type="checkbox" name="onbekend" value="onbekend" id="onbekend">onbekend</label>
         </fieldset>
         <fieldset>
             <legend>Omschrijving werkzaamheden</legend>
@@ -78,16 +93,21 @@
         </fieldset>
         <fieldset>
             <legend>Beschrijving van stagebedrijf</legend>
-            Bedrijfsnaam:<input type="text" id="bedrijfsnaam">
-            Adres:<input type="text" id="Adres">
-            <label for="Adres"></label>
-            Postcode:<input type="text" id="Postcode">
-            <label for="doelgroep"></label>
-            Plaats:<input type="text" id="Doelgroep">
-            <label for="Sector"></label>
+            <label for="bedrijfsnaam">
+                Bedrijfsnaam:<input type="text" id="bedrijfsnaam"></label>
+                <label for="Adres2">
+            Adres:<input type="text" id="Adres2">
+            </label>
+            <label for="Postcode2">
+            Postcode:<input type="text" id="Postcode2" name="Postcode2" placeholder="1234AB" required/>
+            </label>
+            <label for="Plaats2">
+            Plaats:<input type="text" id="Plaats2">
+            </label>
+            <label for="Sector">
             Sector:<input type="text" id="Sector">
-            <label for="business"></label>
-            Core business:<input type="text" id="business">
+            </label><label for="business">
+            Core business:<input type="text" id="business"></label>
             <textarea name="doelgroep" rows="10" cols="20">Ruimte voor overige opmerkingen</textarea>
         </fieldset>
         <input type="button" value="Verstuur">
