@@ -26,13 +26,13 @@
                  <label for="Bedrijf">
               Bedrijf:<input type="text" name="Bedrijf" id="Bedrijf"></label>
                  <label for="Adres">
-              Adres:<input type="text" name="Adres" id="Adres"></label>
+              Adres:<input type="text" name="Adres" id="Adres" placeholder="straatnaam 2"></label>
               <label for="Postcode">
               Postcode:<input type="text" id="Postcode" name="Postcode" placeholder="1234AB"></label>
               <label for="Plaats">
               Plaats:<input type="text" name="Plaats" id=Plaats></label>
               <label for="Telefoon">
-              Telefoon:<input type="number" name="Telefoon" id="Telefoon"></label>
+              Telefoon:<input type="number" name="Telefoon" placeholder="0123456789" id="Telefoon"></label>
               <label for="Email">
               Email:<input type="email" name="Email" placeholder="naam@domein.nl" id=Email></label>                            
         </fieldset>
@@ -57,7 +57,7 @@
             <label for="looptijd">
             Looptijd:<input type="number" name="quantity" min=1 max=3 id="looptijd"></label>
             <label for="deadline">
-            Deadline:<input type="date" name="deadline" min=2015-09-09 max=2015-10-09 id="deadline"></label>
+            Deadline:<input type="date" name="deadline" min=2015-09-14 max=2015-10-14 id="deadline"></label>
         </fieldset>
         <fieldset>
         <legend>Geschikt voor:</legend>
@@ -96,10 +96,10 @@
             <label for="bedrijfsnaam">
                 Bedrijfsnaam:<input type="text" id="bedrijfsnaam"></label>
                 <label for="Adres2">
-            Adres:<input type="text" id="Adres2">
+            Adres:<input type="text" id="Adres2" placeholder="straatnaam 2">
             </label>
             <label for="Postcode2">
-            Postcode:<input type="text" id="Postcode2" name="Postcode2" placeholder="1234AB">
+            Postcode:<input type="text" id="Postcode2" placeholder="1234AB">
             </label>
             <label for="Plaats2">
             Plaats:<input type="text" id="Plaats2">
